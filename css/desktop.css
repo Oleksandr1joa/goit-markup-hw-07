@@ -260,6 +260,7 @@ text-transform: var(--primari-font-logo-transform);
 /*=============*/
 .footer-list-icons {
     margin-left: 120px;
+    margin-top: 0px;
 }
 /*=============*/
 .list-solution {
@@ -268,6 +269,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
     font-weight:var(--primari-font-weight);
     color: #2E2F42;
+    text-align: left;
 }
 .footer-item-text { 
 font-weight: 500;
@@ -303,6 +305,7 @@ color: #FFFFFF;
 .footer-modal {
     display: flex;    
 margin-left: 80px;
+margin-top: 0px;
 }
 .footer-modal-text {
 font-weight: 500;
@@ -311,6 +314,7 @@ line-height: calc(24/16);
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+margin-top: 0px;
 }
 .footer-modal-mesage {
     display: flex;
@@ -357,6 +361,7 @@ line-height: calc(24/16);
 text-align: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+margin-top: 0px;
 }
 .footer-modal-icon {
     fill: #FFFFFF;
