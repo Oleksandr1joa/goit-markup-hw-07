@@ -3,11 +3,15 @@
 .menu-item {
     display: none;
 }
+.contact-mail {
+    display: none;
+}
 .mobile-menu-open {
 background-color: transparent;
 border: none;
 padding: 0;
 line-height: 0;
+width: auto;
 }
 .mobile-menu-open_icon {
 stroke:  #2E2F42;
@@ -131,6 +135,24 @@ transition: 250ms;
 } 
 .no-scroll {
     overflow: hidden;
+}
+.header { 
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    .page-container-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%
 }
     /*=====================COMPONENTS========================*/
     /*=====================Effective Solutions for Your Business-=======================*/
@@ -421,6 +443,8 @@ margin-bottom: 16px;
 }
 .footer-modal-mesage-input {
     position: relative; 
+    display: flex;
+    margin: 0;
 }
 .footer-modal-input {
     padding-left: 16px;
@@ -431,6 +455,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 color: #FFFFFF;
+
 }
 .footer-modal-mail {
     position: absolute;
@@ -448,9 +473,8 @@ color: rgba(255, 255, 255, 0.6);
 .footer-modal-btn {
     display: inline;    
 }
-.footer-modal-button {    
-    margin-left: 24px;
-    background: #4D5AE5;
+.footer-modal-button { 
+        background: #4D5AE5;
 border-radius: 4px;
 width: 165px;
 height: 40px;
@@ -462,6 +486,9 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 margin-top: 16px;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 .footer-modal-icon {
     fill: #FFFFFF;
@@ -472,6 +499,7 @@ margin-top: 16px;
     flex-direction: column;
     margin-top: 72px;
     text-align: center;
+    width: 100%;
 }
 .logo-mobile {
     text-align: center;
