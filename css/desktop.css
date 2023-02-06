@@ -191,6 +191,7 @@ color: #434455;
 /*=====================/DESCRIPTION========================*/
 /*=======================MAIN==============================*/
 /*==========================What-are-we-doing=======================*/
+
 .work-scroll-item {
     display: block;
     padding-top:  120px;
@@ -199,6 +200,7 @@ color: #434455;
     align-items: center;
     
 }
+
 .container {
     max-width: 1158px;
     margin-left: 15px;
@@ -232,6 +234,9 @@ justify-content: center;
 }
 .job-illumination-color {
     background: #fdf4f6;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 .con-box {
 padding-top:  32px;
@@ -324,7 +329,7 @@ text-transform: var(--primari-font-logo-transform);
 }
 /*=============*/
 .footer-list-icons {
-    margin-left: 120px;
+    margin-left: 90px;
     margin-top: 0px;
 }
 /*=============*/
@@ -369,7 +374,7 @@ color: #FFFFFF;
 }
 .footer-modal {
     display: flex;    
-margin-left: 80px;
+margin-left: 60px;
 margin-top: 0px;
 }
 .footer-modal-text {
