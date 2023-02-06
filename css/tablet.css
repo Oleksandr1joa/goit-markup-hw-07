@@ -203,7 +203,7 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
-.primari-popular-text {
+.primari-popular-text-tablet {
 font-weight: 500;
 font-size: 12px;
 line-height: calc(24/12);
@@ -316,9 +316,10 @@ color: #2E2F42;
 .footer-list {
     display: flex;
     flex-wrap: wrap; 
+    margin-right: auto;
     margin-left: auto;
-    align-items: center;
-    justify-content: left;
+    padding: 0 15px;
+
 }
 .footer-box-text {
     margin-top: 16px;
