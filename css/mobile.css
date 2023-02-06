@@ -92,6 +92,9 @@ color: #434455;
 .mobile-menu-list:not(:last-child) {
 margin-bottom: 40px;
 }
+.mob-hight {
+    padding-top: 56px;
+}
 
 .mobile-menu-list {
 margin-bottom: 80px;
