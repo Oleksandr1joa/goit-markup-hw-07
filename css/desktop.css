@@ -211,6 +211,8 @@ color: #434455;
     max-width: 1158px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     .job-illumination {
