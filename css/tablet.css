@@ -90,11 +90,7 @@ border-radius: 2px;
 }
     /*=====================COMPONENTS========================*/
     /*=====================Effective Solutions for Your Business-=======================*/
-    
-
-
-
-    .main-head {
+        .main-head {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/hero-p.jpg);
         background-size: cover;
@@ -172,6 +168,7 @@ border-radius: 4px
 }
 .container-list {
     padding-top:  96px;
+    padding-bottom: 96px;
 }
 .size-body {
     width: 768px;
@@ -192,17 +189,18 @@ border-radius: 4px
     gap: 24px;
     
 }
+
+
 .list-solution {
-    font-weight: 700;
+    font-style: normal;
+font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-text-align: center;
-justify-content: center;
-align-items: center;
 }
+
 .primari-popular-text-tablet {
 font-weight: 500;
 font-size: 12px;
@@ -210,13 +208,15 @@ line-height: calc(24/12);
 letter-spacing: 0.02em;
 color: #434455;
 }
-.description-text {
-    font-weight: 500;
+.primari-popular-text {
+font-style: normal;
+font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: calc(24/16);
 letter-spacing: 0.02em;
 color: #434455;
 }
+
 /*=====================/DESCRIPTION========================*/
 /*=======================MAIN==============================*/
 /*==========================What-are-we-doing=======================*/
@@ -235,12 +235,14 @@ color: #434455;
     padding-bottom: 96px;
     
 }
-.job-illumination-color {
-    background: #fdf4f6;
+.job-illumination-color {    
+    text-align: center;
+}
+.social-list-item-all {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
 rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
-    text-align: center;
+    background: #fdf4f6;
 }
 .list-bord-scroll {
     margin-top: 72px;
@@ -340,7 +342,7 @@ color: #2E2F42;
 .footer-list-icons {
     margin-left: 24px;
 }
-.list-solution {
+.list-solution-footer {
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;

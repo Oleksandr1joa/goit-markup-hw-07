@@ -315,11 +315,13 @@ text-align: center;
     
 }
 .job-illumination-color {
-    background: #fdf4f6; 
+    text-align: center;
+}
+.social-list-item-all {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
 rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;   
-    text-align: center;
+border-radius: 0px 0px 4px 4px;
+background: #fdf4f6;
 }
 .size-body-mobile {
     display: flex;
@@ -422,7 +424,7 @@ color: #2E2F42;
 .footer-list-icons {
     margin-top: 72px;
 }
-.list-solution {
+.list-solution-footer {
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
