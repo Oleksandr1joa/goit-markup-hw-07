@@ -180,17 +180,30 @@ border-radius: 4px
 
 .list-bord {
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;   
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 .list-size {
     width: 356px;
     /* gap: 24px;     */
 
 }
+.list-bord-team {
+flex-wrap: wrap;
+    justify-content: center;    
+    display: flex;
+    row-gap: 72px;
+    column-gap: 24px
+}
+
 .list-size-tablet {
-    margin-top: 72px;
+row-gap: 24px;
+    column-gap: 72px;
+    
 }
 
 
@@ -244,9 +257,11 @@ color: #434455;
     text-align: center;
 }
 .social-list-item-all {
-    background: #fdf4f6;
-    
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
+
 .social-team-tablet {
 margin-top: 64px;
 }
